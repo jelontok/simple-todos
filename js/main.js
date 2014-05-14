@@ -28,7 +28,7 @@ $(document).ready(function(){
     $('#clear').click(function(){
         // todo: better or cooler modal box for this
         clearConfirm = confirm('Do you really want to clear current list?');
-        if (reloadConfirm == true) {
+        if (clearConfirm == true) {
             $('#todoList').html('');
         }        
     })
